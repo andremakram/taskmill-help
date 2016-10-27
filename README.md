@@ -3,7 +3,7 @@ Scripts
 
 ## Push code to GitHub
 
-<code git-src='https://github.com/a7medkamel/taskmill-help/blob/master/intro/helloworld.js' />
+<code git-src='https://github.com/a7medkamel/taskmill-help/blob/master/intro/helloworld.js'></code>
 
 [github]: http://github.com/
 
@@ -25,11 +25,11 @@ curl https://github.run/a7medkamel/taskmill-help/blob/master/intro/helloworld.js
 Your script is an [express] endpoint. The function's signature is `(req, req, next)`. All data posted or streamed to the script is available on your req object. Same goes for `query` parameters.
 
 ### Request Body
-<code git-src='https://github.com/a7medkamel/taskmill-help/blob/master/intro/req-body.js' />
+<code git-src='https://github.com/a7medkamel/taskmill-help/blob/master/intro/req-body.js'></code>
 > Express req.body [express:req.body]
 
 ### Request Query String
-<code git-src='https://github.com/a7medkamel/taskmill-help/blob/master/intro/req-query.js' />
+<code git-src='https://github.com/a7medkamel/taskmill-help/blob/master/intro/req-query.js'></code>
 > Express req.query [express:req.query]
 
 [express]: http://expressjs.com/
@@ -44,21 +44,21 @@ We provide built in services that you can make use of. Such services include Ema
 
 You can send emails directly from our servers.
 
-<code git-src='https://github.com/a7medkamel/taskmill-help/blob/master/services/email.js' />
+<code git-src='https://github.com/a7medkamel/taskmill-help/blob/master/services/email.js'></code>
 
 ## SMS
 
 You can send sms directly from our servers.
 
 
-<code git-src='https://github.com/a7medkamel/taskmill-help/blob/master/services/sms.js' />
+<code git-src='https://github.com/a7medkamel/taskmill-help/blob/master/services/sms.js'></code>
 
 
 ## MongoDB
 
 Each repository gets a 16mb MongoDB
 
-<code git-src='https://github.com/a7medkamel/taskmill-help/blob/master/services/mongodb.js' />
+<code git-src='https://github.com/a7medkamel/taskmill-help/blob/master/services/mongodb.js'></code>
 
 ## Cron
 
@@ -114,7 +114,7 @@ You can set the content-type header either programaticaly or through the scripts
 
 ### Programaticaly
 
-<code git-src='https://github.com/a7medkamel/taskmill-help/blob/master/intro/content-type.js' />
+<code git-src='https://github.com/a7medkamel/taskmill-help/blob/master/intro/content-type.js'></code>
 
 ### Manual
-<code git-src='https://github.com/a7medkamel/taskmill-help/blob/master/manual/output.js' />
+<code git-src='https://github.com/a7medkamel/taskmill-help/blob/master/manual/output.js'></code>
