@@ -15,5 +15,5 @@ module.exports = function(req, res, next){
       , text    : req.body
     })
     .then((result) => res.send(result))
-    .catch((err) => res.status(err.statusCode || 500).send(err));
+    .catch((err) => res.status(err.statusCode || 500).send(err.error || err));
 };
