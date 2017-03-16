@@ -74,6 +74,16 @@ The cron format is standard, but is limited to `curl` commands.
 */1 * * * * curl 'https://github.run/a7medkamel/taskmill-help/blob/master/helloworld.js'
 ```
 
+# Auth Tokens
+
+You can create `Tokens` using the User Interface. When logged in, select your profile picture on the top right corner, then select settings.
+
+On the settings page click `Create New Key`.
+
+> We do not store keys in our backend. If you forgot a key, you must create a new one.
+
+Send your token in the `Authorization` header with the value `bearer YOUR_TOKEN`.
+
 # Advanced
 
 ## Manual
