@@ -8,7 +8,7 @@
 */
 
 module.exports = function(req, res, next){
-  this.sms({
+  this.phone({
         'to' : '+12532143749',
         'twiml' : req.body
       })
