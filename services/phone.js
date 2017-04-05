@@ -3,7 +3,7 @@
 @input
 {
   "content-type" : "text/xml",
-  "example" : "<?xml version='1.0' encoding='UTF-8'?>\n<Response>\n\t<Gather timeout='10' finishOnKey='*'>\n\t\t<Say>Hi Marcus, Please enter your pin number and then press star.</Say>\n\t</Gather>\n</Response>"
+  "example" : "<?xml version='1.0' encoding='UTF-8'?>\n<Response>\n\t<Gather timeout='10' finishOnKey='*'>\n\t\t<Say>Hi John, Please enter your pin number and then press star.</Say>\n\t</Gather>\n</Response>"
 }
 */
 
