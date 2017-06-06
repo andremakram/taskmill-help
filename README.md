@@ -74,6 +74,33 @@ The cron format is standard, but is limited to `curl` commands.
 */1 * * * * curl 'https://github.run/a7medkamel/taskmill-help/blob/master/helloworld.js'
 ```
 
+```
+* * * * *  command to execute
+┬ ┬ ┬ ┬ ┬
+│ │ │ │ │
+│ │ │ │ │
+│ │ │ │ └───── day of week (0 - 7) (0 to 6 are Sunday to Saturday, 7 is Sunday, the same as 0)
+│ │ │ └────────── month (1 - 12)
+│ │ └─────────────── day of month (1 - 31)
+│ └──────────────────── hour (0 - 23)
+└───────────────────────── min (0 - 59)
+```
+> [cron - wikipedia][1]
+[1]: http://en.wikipedia.org/wiki/Cron
+
+### Five minutes after midnight, every day
+```
+5 0 * * *
+```
+### At 2:15pm on the first of every month
+```
+15 14 1 * *
+```
+### At 10 pm on weekdays
+```
+0 22 * * 1-5
+```
+
 # Auth Tokens
 
 You can create `Tokens` using the User Interface. When logged in, select your profile picture on the top right corner, then select settings.
