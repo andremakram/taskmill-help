@@ -8,7 +8,9 @@
 */
 
 module.exports = function(req, res, next){
-  this.email({
+  req
+    .app
+    .email({
         to      : 'hello@breadboard.io'
       , from    : 'hello@breadboard.io'
       , subject : 'subject: ' + req.body

@@ -8,10 +8,12 @@
 */
 
 module.exports = function(req, res, next){
-  this.sms({
-        'to' : '+12532143749',
-        'body' : req.body
-      })
-      .then((result) => res.send(result))
-      .catch((err) => res.status(err.statusCode || 500).send(err.error || err));
+  req
+    .app
+    .sms({
+      'to' : '+12532143749',
+      'body' : req.body
+    })
+    .then((result) => res.send(result))
+    .catch((err) => res.status(err.statusCode || 500).send(err.error || err));
 };
