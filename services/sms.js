@@ -10,7 +10,8 @@
 module.exports = function(req, res, next){
   req
     .app
-    .sms({
+    .sms
+    .send({
       'to' : '+12532143749',
       'body' : req.body
     })

@@ -10,7 +10,8 @@
 module.exports = function(req, res, next){
   req
     .app
-    .phone({
+    .phone
+    .send({
       'to' : '+12532143749',
       'twiml' : req.body
     })
