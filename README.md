@@ -89,15 +89,15 @@ The cron format is standard, but is limited to `curl` commands.
 [1]: http://en.wikipedia.org/wiki/Cron
 
 ### Five minutes after midnight, every day
-```
+```bash
 5 0 * * *
 ```
 ### At 2:15pm on the first of every month
-```
+```bash
 15 14 1 * *
 ```
 ### At 10 pm on weekdays
-```
+```bash
 0 22 * * 1-5
 ```
 
