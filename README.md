@@ -74,7 +74,7 @@ The cron format is standard, but is limited to `curl` commands.
 */1 * * * * curl 'https://github.run/a7medkamel/taskmill-help/blob/master/helloworld.js'
 ```
 
-```
+```bash
 * * * * *  command to execute
 ┬ ┬ ┬ ┬ ┬
 │ │ │ │ │
