@@ -103,13 +103,22 @@ The cron format is standard, but is limited to `curl` commands.
 
 # Auth Tokens
 
-You can create `Tokens` using the User Interface. When logged in, select your profile picture on the top right corner, then select settings.
+Authentication is required for some of our services. For example you will receive an `unauthorized` error if you try to send emails without being logged in or using a token.
+
+## Authentication
+If you are logged in and run code from the playground editor, we will generate a token for you.
+
+## JWT
+If you have a JWT, you can put it in the `Authorization` header with the value `bearer [YOUR_JWT]`. Note that any JWT we issue will have a set expiry date.
+
+## Token
+You can create long lived `Tokens` using the User Interface. When logged in, select your profile picture on the top right corner, then select settings.
 
 On the settings page click `Create New Key`.
 
 > We do not store keys in our backend. If you forgot a key, you must create a new one.
 
-Send your token in the `Authorization` header with the value `bearer YOUR_TOKEN`.
+Send your token in the `Authorization` header with the value `bearer [YOUR_TOKEN]`.
 
 # Advanced
 
