@@ -12,8 +12,8 @@ module.exports = function(req, res, next){
     .app
     .email
     .send({
-        to      : 'hello@breadboard.io'
-      , from    : 'hello@breadboard.io'
+        to      : 'andre.makram@gmail.com'
+      , from    : 'andre.makram@gmail.com'
       , subject : 'subject: ' + req.body
       , text    : req.body
     })
